@@ -26,7 +26,8 @@ Font Awesome – Icons for GitHub, LinkedIn, and Download
 OpenWeatherMap API – Used in one of the showcased projects
 
 ## 🌐 Live Site
-[View Live Portfolio](https://to-do-app-omega-azure.vercel.app)
+[View Live Portfolio](my-portfolio-ten-rose-91.vercel.app
+)
 
 ## 📄 Download CV
 [Download My CV](Biswasrita_Cv.pdf)
