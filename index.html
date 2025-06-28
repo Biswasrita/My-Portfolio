@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="big">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-content">
+      <img src="WhatsApp Image 2025-06-21 at 6.49.40 PM.jpeg" alt="My Photo" class="profile-photo" />
+      <p class="type">Hi, I am Biswasrita Hazra from Uluberia,Howrah.<br>
+        I have completed my schooling from Uluberia High School and I am currently pursuing my BTech in Computer Science Engineering from MCKV Institute of Engineering.<br>
+        I have strong interest in Full Stack development.I have knowledge about C, HTML, CSS, Java Script, NODE.js, JavaPython.<br>
+        I want to apply my skills in real-world projects.<br>
+      </p>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com/Biswasrita" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/biswasrita-hazra-947570349/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="Biswasrita_Cv.pdf" download="Biswasrita_Hazra_CV.pdf"><i class="fa-solid fa-file-arrow-down"></i> Download My CV (PDF)</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="big">
+      <h1>Projects</h1>
+    </div>
+    <br>
+    <br>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Tic Tac Toe</h3>
+        <p>Simple game built using HTML, CSS, and JavaScript.</p>
+        <a href="https://tic-tac-toe-tau-one-77.vercel.app" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Amazon HomePage</h3>
+        <p>A basic clone of the Amazon homepage using HTML and CSS,focusing on responsive UI design</p>
+        <a href="https://amazon-clone-app-nine.vercel.app" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Weather App</h3>
+        <p>Get real-time weather data using the OpenWeatherMap API.</p>
+        <a href="https://weather-app-ten-nu-62.vercel.app" target="_blank">View Project</a>
+      </div>
+      <div class="card">
+        <h3>To-Do-App</h3>
+        <p>A sleek and interactive To-Do App with progress tracking, task editing, local storage, and confetti celebration on completion.</p>
+        <a href="https://to-do-app-omega-azure.vercel.app" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="big">
+      <h1>Contact Me</h1>
+    </div>
+    <br>
+    <br>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
